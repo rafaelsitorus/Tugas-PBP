@@ -8,4 +8,10 @@ Penjelasan tambahan mengenai kaitan urls.py, views.py, models.py, dan berkas htm
     - Model dan template me-reply kembali kepada view mengenai pesan yang dikirimkan oleh user/pengguna
     - View kemudian melakukan tugas terakhirnya untuk menampilkan seluruh pesan yang telah dibalas oleh model dan template untuk dapat dilihat pengguna dengan mengirimkannya kepada HTTP Response (HTML)
 
-3. 
+3. Fungsi git dalam pengembangan perangkat lunak adalah sebagai media interaksi antar pengembang agar setiap update atau implementasi baru yang dilakukan salah satu pengembang dapat di track oleh sesama pengembang lainnya, dengan adanya git, pengembangan perangkat lunak juga semakin mudah dikarenakan kita dapat membagi tugas antar pengembang dan mengintegrasikannya kembali di git ketika projek sudah dianggap seleseai.
+
+4. Menurut saya Django dijadikan framework pilihan bagi mahasiswa fasilkom karena Django merupakan framework yang bekerja dibawah bahasa Python, yang mana mahasiswa fasilkom sangatlah erat dengan bahasa tersebut, serta kita akan menggunakan Flutter yang nantinya dapat digunakan oleh mahasiswa untuk mengembangkan aplikasi mobile yang mana Flutter sendiri adalah aplikasi yang komunikasi dengan backendnya menggunakan Django Web Service.
+
+5. Model pada Django disebut ORM adalah karena ORM adalah fitur yang memungkinkan pengguna berinteraksi dengan database dengan cara yang sama seperti saat pengguna berinteraksi dengan SQL.
+
+6. URL : 
