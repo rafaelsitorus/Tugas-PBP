@@ -14,4 +14,4 @@ Penjelasan tambahan mengenai kaitan urls.py, views.py, models.py, dan berkas htm
 
 5. Model pada Django disebut ORM adalah karena ORM adalah fitur yang memungkinkan pengguna berinteraksi dengan database dengan cara yang sama seperti saat pengguna berinteraksi dengan SQL.
 
-6. URL : 
+6. URL : http://pbp.cs.ui.ac.id/raja.rafael/tugaspbpraja
