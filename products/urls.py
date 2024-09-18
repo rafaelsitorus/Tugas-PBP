@@ -21,7 +21,7 @@ from products.views import show_xml, show_json, show_xml_by_id, show_json_by_id
 from pages import views
 from products.views import product_create_view
 
-# app_name = "main"
+# app_name = "main2"
 
 urlpatterns = [
     path('', views.home_view, name='home_view'),

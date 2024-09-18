@@ -15,3 +15,18 @@ Penjelasan tambahan mengenai kaitan urls.py, views.py, models.py, dan berkas htm
 5. Model pada Django disebut ORM adalah karena ORM adalah fitur yang memungkinkan pengguna berinteraksi dengan database dengan cara yang sama seperti saat pengguna berinteraksi dengan SQL.
 
 6. URL : http://pbp.cs.ui.ac.id/raja.rafael/tugaspbpraja
+
+TUGAS - 3
+
+1. Dalam mengembangkan suatu platform, ada kalanya kita perlu mengirimkan data dari satu stack ke stack lainnya, sehingga kita memerlukan data delivery.
+
+2. Menurut saya keduanya memiliki fungsi yang sama dan tidak ada yang lebih baik diantaranya hanya saja json lebih mudah digunakan bagi kita yang menggunakan Javascript.
+
+3. is_valid() merupakan suatu fungsi yang digunakan untuk memvalidasi isi dari input yang diberikan didalam form.
+
+4. csrf_token berfungsi sebagai token atau id yang diciptakan untuk mencegah adanya serangan siber.
+
+5. Dalam membuat tugas kali ini saya pertama kali membuat file form yang saya taruh pada direktori products, dimana form tersebut mengambil fungsi Product sebagai label-label yang akan diisi pada saat melakukan input kepada web, kemudian saya membuat beberapa function tambahan pada views.py dan beberapa perubahan pada urls.py agar isi dari input pengguna dapat disimpan dalam bentuk file json atau xml.
+
+(Screenshot 2024-09-18 at 22.03.35)
+(Screenshot 2024-09-18 at 22.03.42)
