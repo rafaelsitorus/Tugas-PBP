@@ -30,3 +30,15 @@ TUGAS - 3
 
 (Screenshot 2024-09-18 at 22.03.35)
 (Screenshot 2024-09-18 at 22.03.42)
+
+TUGAS - 4
+
+1. HttpResponseRedirect() argumen pertama hanya dapat diisi URL. redirect yang pada akhirnya akan mengembalikan HttpResponseRedirect dapat menerima model, tampilan, atau url sebagai argumen.
+
+2. Untuk menghubungkan Product dengan User saya menggunakan ForeignKey, dimana ForeignKey berguna untuk menciptakan hubungan antara dua tabel.
+
+3. Authentication adalah proses untuk memverifikasi identitas pengguna, sedangkan authorization adalah proses untuk menentukan akses user setelah mereka terautentikasi. Di Django, authentication bekerja melalui model User dan form authentication dan authorization dikelola menggunakan permission, groups, dan decorators untuk mengontrol akses ke berbagai views.
+
+4. Django mengingat pengguna yang telah login dengan menggunakan session, yang secara otomatis menyimpan informasi tentang pengguna di server dan mengaitkannya dengan session ID yang disimpan dalam cookie di browser pengguna. Cookies juga memiliki kegunaan lain yaitu untuk menyimpan preferensi pengguna, dsb. Tidak semua cookies aman digunakan, karena beberapa cookies rentan terhadap serangan siber.
+
+5. Pertama-tama, karena struktur direktori saya berbeda dengan tutorial, saya harus melihat isi dari tiap file saya untuk memastikan program yang akan saya ikuti dari tutorial dapat terpasang dengan baik pada program saya, pertama saya membuka views.py yang terdapat pada direktori products untuk menambahkan fungsi-fungsi yang diperlukan seperti register, login_user, logout_user. Kemudian setelah semua hal tersebut telah rampung, saya mulai membangun koneksi antara User dan Product agar terintegrasi yang berfungsi agar tiap form yang diisi oleh user berdiri atas id-nya masing-masing. Setelah itu, saya menambahkan sedikit fitur seperti cookie last_login yang berfungsi sebagai bukti jejak adanya login dari suatu user.

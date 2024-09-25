@@ -2,5 +2,14 @@
 
 {% block content %}
 <h1>Toko Hijau</h1>
-<p>Raja Rafael, PBP F</p>
+<p>PBP F</p>
+<h5>NPM: </h5>
+<p>{{ npm }}<p>
+
+<h5>Name:</h5>
+<p>{{ name }}</p>
+<a href="{% url 'logout' %}">
+    <button>Logout</button>
+</a>
+<h5>Sesi terakhir login: {{ last_login }}</h5>
 {% endblock %}
