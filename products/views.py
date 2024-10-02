@@ -77,3 +77,26 @@ def logout_user(request):
     response = HttpResponseRedirect(reverse('login'))
     response.delete_cookie('last_login')
     return response
+
+def edit_product(request, id):
+    # Get Product entry berdasarkan id
+    product = Product.objects.get(pk=id)
+
+    # Set mood entry sebagai instance dari form
+    form = ProductForm(request.POST or None, instance=product)
+
+    if form.is_valid() and request.method == "POST":
+        # Simpan form dan kembali ke halaman awal
+        form.save()
+        return HttpResponseRedirect(reverse('home_view'))
+    
+    context = {'form': form}
+    return render(request, 'edit_product.html', context)
+
+def delete_mood(request, id):
+    # Get mood berdasarkan id
+    product = Product.objects.get(pk = id)
+    # Hapus mood
+    product.delete()
+    # Kembali ke halaman awal
+    return HttpResponseRedirect(reverse('home_view'))

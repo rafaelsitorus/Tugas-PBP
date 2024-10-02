@@ -19,10 +19,9 @@ from django.urls import path, include
 from products.views import show_xml, show_json, show_xml_by_id, show_json_by_id
 
 from pages import views
-from products.views import product_create_view
-from products.views import register, login_user, logout_user
+from products.views import register, login_user, logout_user, edit_product, product_create_view, delete_mood
 
-# app_name = "main"
+# app_name = "main2"
 
 urlpatterns = [
     path('', views.home_view, name='home_view'),
@@ -35,4 +34,7 @@ urlpatterns = [
     path('register/', register, name='register'),
     path('login/', login_user, name='login'),
     path('logout/', logout_user, name='logout'),
+    path('edit-mood/<uuid:id>/', edit_product, name='edit_product'),
+    path('product-create-view', product_create_view, name='product_create_view'),
+    path('delete/<uuid:id>', delete_mood, name='delete_mood'),
 ]
