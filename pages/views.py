@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from products.models import Product
 from django.contrib.auth.decorators import login_required
+from django.utils.html import strip_tags
 
 # Create your views here.
 
